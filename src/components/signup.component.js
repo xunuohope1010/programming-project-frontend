@@ -150,9 +150,8 @@ export default class SignupComponent extends React.Component{
                     </Grid>
 
                     <Grid item xs={4}>
-                        <TextField fullWidth required id="filled-required" variant="filled" label="First Name"
+                        <TextField fullWidth id="filled-basic" variant="filled" label="First Name"
                                    name={'first_name'} onChange={(e) => this.onFirstNameChangeHandler(e)}/>
-                        <FormHelperText>Required</FormHelperText>
 
                     </Grid>
                     <Grid item xs={4}>
@@ -162,9 +161,8 @@ export default class SignupComponent extends React.Component{
                     </Grid>
 
                     <Grid item xs={4}>
-                        <TextField fullWidth required id="filled-required" variant="filled" label="Last Name"
+                        <TextField fullWidth id="filled-basic" variant="filled" label="Last Name"
                                    name={'last_name'} onChange={(e) => this.onLastNameChangeHandler(e)}/>
-                        <FormHelperText>Required</FormHelperText>
 
                     </Grid>
 
