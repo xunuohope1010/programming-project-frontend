@@ -26,7 +26,7 @@ class App extends React.Component {
       })
       setTimeout(()=> {
         localStorage.clear();
-      }, 20000)
+      }, 120000)
     }
   }
 
